@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+button {
+  background: linear-gradient(45deg, #00c6ff, #0072ff),
+    linear-gradient(135deg, #76e4f7, #0d47a1);
+  background-blend-mode: overlay;
+  color: #000;
+  font-size: 16px;
+  padding: 20px 100px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  background: #707070;
+}
+
+.btn__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 400px;
+  gap: 10px;
+}
